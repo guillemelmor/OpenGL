@@ -1,0 +1,30 @@
+﻿Build started 20/05/2016 1:59:10.
+     1>Project "C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\P4GLSL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scr\auxiliar.cpp scr\main.cpp
+         main.cpp
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(754): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(760): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(766): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(772): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(778): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(784): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(790): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(796): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(803): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(807): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(812): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 4\p4\p4_adrian_david_morillas_marco_guillermo_meléndez_morales\visual2013\p4glsl\scr\main.cpp(818): warning C4305: '-=' : truncation from 'double' to 'float'
+         auxiliar.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\Debug\P4GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\Debug\P4GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\Debug\P4GLSL.lib" /MACHINE:X86 /SAFESEH Debug\auxiliar.obj
+         Debug\main.obj
+     1>auxiliar.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         P4GLSL.vcxproj -> C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\Debug\P4GLSL.exe
+     1>Done Building Project "C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 4\P4\P4_Adrian_David_Morillas_Marco_Guillermo_Meléndez_Morales\Visual2013\P4GLSL\P4GLSL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.08

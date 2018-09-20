@@ -1,0 +1,33 @@
+﻿Build started 23/02/2016 18:21:08.
+     1>Project "C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\P3GLSL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\libs\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt scr\main.cpp
+         main.cpp
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(717): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(718): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(723): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(725): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(772): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(777): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(782): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(787): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(792): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(797): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(806): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(826): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(846): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(866): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(886): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(906): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(993): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\guillermo\desktop\urjc\informatica gráfica\practica 3\p3\p3\visual2013\p3glsl\scr\main.cpp(994): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\Debug\P3GLSL.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\libs\lib FreeImage.lib opengl32.lib freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\Debug\P3GLSL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\Debug\P3GLSL.lib" /MACHINE:X86 /SAFESEH Debug\auxiliar.obj
+         Debug\main.obj
+     1>auxiliar.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         P3GLSL.vcxproj -> C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\Debug\P3GLSL.exe
+     1>Done Building Project "C:\Users\Guillermo\Desktop\URJC\Informatica Gráfica\Practica 3\P3\P3\Visual2013\P3GLSL\P3GLSL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.24
